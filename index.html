@@ -343,7 +343,7 @@
         .nav-container {
             max-width: 1200px;
             margin: 0 auto;
-            display: flex;
+            display: block
             justify-content: space-between;
             align-items: center;
             padding: 0 2rem;
@@ -357,7 +357,7 @@
         }
 
         .nav-links {
-            display: flex;
+            display: block
             list-style: none;
             gap: 2rem;
         }
@@ -396,7 +396,7 @@
                         url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="0px231a5f7a" width="1200" height="600"/><path fill="0px23159895" d="M0 400 Q300 300 600 400 T1200 400 V600 H0 Z"/></svg>');
             background-size: cover;
             background-position: center;
-            display: flex;
+            display: block
             align-items: center;
             justify-content: center;
             text-align: center;
@@ -429,7 +429,7 @@
             background: var(--accent);
             color: var(--dark);
             text-decoration: none;
-            border-radius: 50px;
+            /* border-radius: 50px; */
             font-weight: 600;
             font-size: 1.1rem;
             transition: all 0.3s ease;
@@ -473,7 +473,7 @@
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 2rem;
         }
-
+/* 
         .destination-card {
             position: relative;
             height: 400px;
@@ -482,7 +482,7 @@
             cursor: pointer;
             transition: transform 0.3s ease;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-        }
+        } */
 
         .destination-card:hover {
             transform: translateY(-10px);
